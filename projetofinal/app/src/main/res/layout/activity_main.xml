@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pbm.projetofinal.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MENU"
+        android:id="@+id/menu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Mês"
+        android:onClick="chamarM"
+        android:id="@+id/data"
+        android:layout_below="@+id/menu"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Forma Geometrica"
+        android:id="@+id/forma"
+        android:onClick="chamarL"
+        android:layout_below="@+id/data"
+        android:layout_alignLeft="@+id/data"
+        android:layout_alignStart="@+id/data" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Somar"
+        android:onClick="chamarS"
+        android:id="@+id/numero"
+        android:layout_below="@+id/forma"
+        android:layout_alignLeft="@+id/forma"
+        android:layout_alignStart="@+id/forma" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fechar"
+        android:onClick="fechar"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Diminuir"
+        android:onClick="chamarDi"
+        android:id="@+id/button5"
+        android:layout_below="@+id/numero"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Mutiplicar"
+        android:onClick="chamarMu"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="Dividir"
+        android:onClick="chamarD"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
