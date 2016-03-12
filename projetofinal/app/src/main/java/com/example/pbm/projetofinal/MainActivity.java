@@ -12,36 +12,42 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    /// O metodo chamarL chama o novo layout de Forma
     public void chamarL (View view){
         Intent intent = new Intent(MainActivity.this, Forma.class);
         startActivity(intent);
 
     }
+    /// O metodo ChamarM chama o novo layout de Mes
     public void chamarM (View view){
         Intent intent = new Intent(MainActivity.this, Mes.class);
         startActivity(intent);
 
     }
+    /// O metodo chamarS chama o novo layout de Somar
     public void chamarS (View view){
         Intent intent = new Intent(MainActivity.this, Somar.class);
         startActivity(intent);
 
     }
+    /// O metodo chamarMu chama o novo layout de Mutiplicar
     public void chamarMu (View view){
         Intent intent = new Intent(MainActivity.this, Mutiplicar.class);
         startActivity(intent);
 
     }
+    /// O metodo ChamarD chama o layout de Dividir
     public void chamarD (View view){
         Intent intent = new Intent(MainActivity.this, Dividir.class);
         startActivity(intent);
 
     }
+    /// O metodo chamarDi chama o layout de Diminuir
     public void chamarDi (View view){
         Intent intent = new Intent(MainActivity.this, Diminuir.class);
         startActivity(intent);
     }
-
+        /// o metodo fechar fecha o programa
     public void fechar(){
         finish();
     }
