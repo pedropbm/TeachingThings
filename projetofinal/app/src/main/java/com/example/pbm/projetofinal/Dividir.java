@@ -14,7 +14,7 @@ public class Dividir extends AppCompatActivity {
         setContentView(R.layout.activity_dividir);
         imageView = (ImageView) findViewById(R.id.image);
     }
-    /** O metodo errado chama a imagem de errado para mostrar que a resposta dada pelo usuario é errada*/
+    /**  O metodo errado chama a imagem de errado para mostrar que a resposta dada pelo usuario é errada*/
     public void errado(View view){
         imageView.setImageResource(R.drawable.errado);
 
