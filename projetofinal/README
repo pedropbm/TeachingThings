@@ -1,0 +1,6 @@
+  Para a utilização do aplicativo o usuario deve escolher entre as opções dadas, elas são, Mês, Forma Geometrica, Somar, Dividir, 
+Mutiplicar, Subtrair. 
+  Ao clicar em uma delas será apresentado ao usuario uma serie de perguntas, quando o usuario responder as perguntas, uma imagem 
+vai informar o usuario se sua resposta esá correta ou incorreta. 
+  Caso o usuario selecione Voltar, a tela atual será fechada e a tela do Menu vai retornar. 
+  Caso clique em sair no Menu o aplicativo será fechado.
