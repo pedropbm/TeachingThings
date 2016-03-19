@@ -27,7 +27,7 @@ public class Forma extends AppCompatActivity {
 
     }
 
-    /** O metodo voltar volta, fecha o layout aberto.*/
+    /** O metodo voltar volta, fecha o layout aberto. */
     public void voltar(View view){
         finish();
 
