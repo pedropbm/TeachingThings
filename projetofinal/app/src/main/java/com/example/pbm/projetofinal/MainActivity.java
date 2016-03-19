@@ -5,6 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
+/** Pedro Bandeira Milfont
+ *   Esse aplicativo ajuda as crianças a desenvolver e praticar algumas coisas basicas como por exemplo:
+ *      O mes de um ano em numeral.
+ *      Qual nome de determinada forma geometrica.
+ *      Responder uma Soma.
+ *      Responder uma Divisão.
+ *      Responder uma Mutiplicação.
+ *      Responder uma Subtração.
+
+ *      A criança pratica brincando, sendo assim não é chato ou cansativo aprender e relembrar algumas coisas.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
