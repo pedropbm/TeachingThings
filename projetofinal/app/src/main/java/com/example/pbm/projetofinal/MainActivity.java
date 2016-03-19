@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    /**  O metodo chamarL chama o novo layout de Forma */
+    /** O metodo chamarL chama o novo layout de Forma */
     public void chamarL (View view){
         Intent intent = new Intent(MainActivity.this, Forma.class);
         startActivity(intent);
